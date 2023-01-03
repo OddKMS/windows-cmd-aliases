@@ -5,4 +5,6 @@ DOSKEY ls=dir /B $*
 DOSKEY nano=wsl nano $*
 
 :: Path Aliases
-DOSKEY projects=cd "C:/projects/"
+DOSKEY home=cd %USERPROFILE%
+DOSKEY projects=cd "%USERPROFILE%/projects/"
+DOSKEY work=cd "%USERPROFILE%/work/"
